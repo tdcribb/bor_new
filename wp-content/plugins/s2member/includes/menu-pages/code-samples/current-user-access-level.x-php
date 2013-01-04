@@ -1,0 +1,39 @@
+<?php if (S2MEMBER_CURRENT_USER_ACCESS_LEVEL === 4){ ?>
+    Currently a <span class="platinum">Publishing Member</span>.
+<?php } else if (S2MEMBER_CURRENT_USER_ACCESS_LEVEL === 3){ ?>
+    Currently a <span class="gold">Publishing Member</span>. 
+<?php } else if (S2MEMBER_CURRENT_USER_ACCESS_LEVEL === 2){ ?>
+    Currently a <span class="silver">Publishing Member (Yearly Subscriber)</span>.
+<?php } else if (S2MEMBER_CURRENT_USER_ACCESS_LEVEL === 1){ ?>
+    Currently a <span class="bronze">Publishing Member (Monthly Subscriber)</span>.
+<?php } else if(S2MEMBER_CURRENT_USER_ACCESS_LEVEL === 0){ ?>
+    Currently a Free Subscriber.
+<?php } else if(S2MEMBER_CURRENT_USER_ACCESS_LEVEL === -1){ ?>
+    
+<?php } ?>
+
+---- s2member Shortcode Equivalent ----
+
+[s2If current_user_is(s2member_level4)]
+	Some premium content for Level 4 Members.
+[/s2If]
+
+[s2If current_user_is(s2member_level3)]
+	Some premium content for Level 3 Members.
+[/s2If]
+
+[s2If current_user_is(s2member_level2)]
+	Some premium content for Level 2 Members.
+[/s2If]
+
+[s2If current_user_is(s2member_level1)]
+	Some premium content for Level 1 Members.
+[/s2If]
+
+[s2If current_user_is(s2member_level0)]
+	Some content for Free Subscribers.
+[/s2If]
+
+[s2If !is_user_logged_in()]
+	Some public content.
+[/s2If]

@@ -1,0 +1,525 @@
+body {max-width:2400px; overflow-x:hidden;}
+div#content, #container div#content {min-height:700px; padding-bottom:20px; }
+.home-page div#content, .home-page #container div#conten {min-width:810px;}
+.page-template-member-options-php div#content, .page-template-member-options-php div#primary {min-width:690px;}
+body, div#container {background:none !important; width:100%; border:none; color: #000; }
+.home-page  div#container {min-width:800px;}
+#wood-bg {position:fixed; top:0px; left:0px; z-index: -1;}
+.page-template-addhistory-php div#container {overflow:visible;}
+
+#wpadminbar, #wpadminbar .ab-top-secondary {background:#000;}
+
+#nav li {margin-left:2px;}
+#nav li a {background:#000; text-align:center; font-weight: bold;}
+#nav li a:hover {background:#efefef; color:#000; font-weight: bold;}
+#nav li ul li.menu-item a:hover {background:#efefef; color:#000; font-weight: bold;}
+#container {border:1px solid #999;
+  -moz-box-shadow:  0px 2px 5px 0px #000;
+  -webkit-box-shadow: 0px 2px 5px 0px #000;
+  box-shadow:     0px 2px 5px 0px #000;
+}
+.iphone-header-text-only {display:none; position:relative; float:left; margin-left:5px;}
+.header-login-left {position:relative; float:left; margin-left:10px;}
+#header-login-register .logout {margin-left:10px;}
+
+div#subnav.item-list-tabs, div.pagination {background:none; color:#fff; width:98%; margin-left:1%; border:none;}
+div.item-list-tabs ul li a:hover {background:none;}
+#members-directory-form h3 {color:#fff;}
+div.item-list-tabs {background: #800; width:98%; margin-left:1%;
+  -moz-box-shadow:  0px 2px 5px 0px #000;
+  -webkit-box-shadow: 0px 2px 5px 0px #000;
+  box-shadow:     0px 2px 5px 0px #000;}
+ul.item-list li {border-bottom:1px solid #999; border-top:1px solid #efefef;  margin-bottom:10px; color:#000;
+  background:url('/wp-content/images/content/paper-bg.jpg');}
+ul.item-list li div.item-title {margin-left:15px;}
+#members-list li .item-avatar {margin-left:10px;}
+ul.item-list li .item-title a {color:#000; font-family:'Apple Chancery'; font-size:16px;}
+ul.item-list li .item-title span.update {font-family:'Apple Chancery';}
+ul.item-list.activity-list li {padding-bottom:10px;}
+div.post-content {border-bottom:1px solid #999; border-top:1px solid #999; padding-top:10px; padding-bottom:10px;}
+.comments-closed {display:none;}
+.post .post-content .date {width:100%;}
+.alignright {position:absolute; top:-30px; right:0px;}
+.alignleft {position:absolute; top:-30px; left:0px;}
+.alignright a, .alignleft a {color:#efefef;}
+.alignright a:hover, .alignleft a:hover {color:#000;}
+div.post {overflow:visible;}
+#blog-single {margin-top:20px; overflow:visible; 
+  -moz-box-shadow:  0px 2px 5px 0px #000;
+  -webkit-box-shadow: 0px 2px 5px 0px #000;
+  box-shadow:     0px 2px 5px 0px #000;
+}
+#blog-single .wpuf-attachments {display:block;}
+#blog-single .post .postmetadata {display:block;}
+#blog-single .wpuf-attachments img { color:#A14621; text-decoration:none;}
+#blog-single .wpuf-attachments img:hover { color:#000;}
+
+.what-is {color:#ccc; cursor:pointer;}
+.what-is:hover {color:#000;}
+.hide {display:none;}
+
+.wpuf-attachments {display:none;}
+
+.platinum {color:#7D7D7C; font-weight: bold;}
+.gold {color:#D9D919; font-weight: bold;}
+.bronze {color:#A67D3D; font-weight: bold;}
+.silver {color:#E6E8FA; font-weight: bold;}
+
+/* *****SEARCH***** */
+div#content .padder {margin:0px; border:none;}
+#blog-search {margin-top:20px; overflow:visible;}
+#blog-search h2.pagetitle {display:none;}
+#blog-search .post-content .entry {max-height:125px; overflow:hidden; width:100%;}
+#blog-search .post-content .date {padding-bottom:10px; font-size:10px; border:none;}
+#blog-search div.author-box {padding:0px; margin-bottom:0px;}
+#blog-search h2.posttitle {font-size:20px;}
+#blog-search .post, #blog-archives .post {margin-top:20px; margin-bottom:10px; position:relative; float:left; max-width:810px; 
+  background:url('/wp-content/images/content/paper-bg.jpg'); padding:10px; width:100%;
+  -moz-box-shadow:  0px 2px 5px 0px #000;
+  -webkit-box-shadow: 0px 2px 5px 0px #000;
+  box-shadow:     0px 2px 5px 0px #000;
+}
+.continue-reading-post {position:absolute; bottom:0px; right:10px; color:#800; text-decoration:underline;}
+p.postmetadata .comments {display:none;}
+div.page, div.post, div.attachment {position:relative;}
+.post div.author-box {background:none;}
+
+
+/* *****CONTENT***** */
+#content {min-height:500px;}
+.content-bottom-border {position:absolute; bottom:0px; left:0px; width:100%; height:5px;}
+#left-nav {width:120px; height:100%; position:relative; float:left;}
+#left-nav #left-nav-border {position:absolute; top:0px; right:-5px; height:100%; width:5px;}
+.left-nav-link {width:100%; height:130px; position:relative; float:left;}
+.left-nav-img {position:absolute; top:20px; left:25px; width:70px; height:97px; cursor:pointer;}
+.book-front {z-index:10;}
+.book-page {z-index:5;}
+.left-nav-text {position:absolute; top:35px; left:25px; z-index:6; color:#000; width:70px; text-align:center; font-size:12px; line-height:100%; cursor:pointer;}
+.left-nav-text a {color:#000; font-family:'Apple Chancery'; font-size:14px;}
+.left-nav-text a:hover {color:#800;}
+.left-top-text {position:absolute; top:40px; left:25px; z-index:6; color:#fff; width:70px; text-align:center; font-size:10px; 
+    line-height:100%; z-index:11; overflow: hidden;}
+.left-top-text div {width:65px; margin-left:2px; font-family:Caslon; font-size:11px; line-height:120%;}
+.left-nav-text span:hover {color:#800;}
+
+#primary {position:relative; float:left; min-width:810px;}
+#lamp-cont {position:relative; margin:auto; width:450px; margin-top:5px; }
+#oldbook-text-container {position:relative; width:810px; margin:auto; height:560px;}
+.oldbook {position:absolute; top:0px; right:0px; z-index:-1;}
+#bookcover {position:absolute; top:10px; left:390px; z-index:3; height:568px; }
+/*#hiddencover {position:absolute; top:0px; right:0px; height:568px; width:400px; overflow:hidden;}*/
+
+.left-page {position:absolute; width:370px; padding:15px; text-align:center; top:10px; right:410px; padding-top:20px; padding-bottom:25px;}
+.right-page {position:absolute; width:365px; padding:15px; text-align:center; top:10px; left:399px; padding-top:20px; padding-bottom:25px;}
+.left-page span.title {font-size:14px; font-weight:bold;}
+.left-page.hp, .right-page.hp {overflow:hidden; height:525px;}
+/*.left-page.hp {width:0px;}*/
+
+
+/* *****LOGIN***** */
+div#login h1 a {background:none !important; height:120px !important;}
+div#login h1 {margin-bottom:20px;}
+#login-logo {position:relative; float:left; margin-left:80px; margin-bottom:20px; margin-top:2px;
+  -moz-box-shadow:  0px 2px 5px 0px #555;
+    -webkit-box-shadow: 0px 2px 5px 0px #555;
+    box-shadow:     0px 2px 5px 0px #555;}
+
+
+
+/* *****REGISTER***** */
+#register-page #basic-details-section, #register-page #profile-details-section, #register-page .register-section {position:relative; float:left !important; min-width:100%; text-align:left;}
+#signup_form.standard-form div.submit {float:left !important; position:relative !important;}
+#register-page form input {max-width:300px;}
+.registration div#content .padder {margin-right:0px;}
+#signup_form p {font-size:14px;}
+#signup_form.standard-form div div.error {background:#800000; border:1px solid #000; color:#fff; font-size:11px; max-width:500px;}
+#cover-submit {position:absolute; top:15px; left:0px; width:120px; height:28px; background:#fff; opacity:0.7; z-index:100;}
+#agree-terms {position:relative; float:left; margin-top:10px;}
+.reg-accept-terms {text-decoration:underline; color:#666; cursor:pointer;}
+
+.small-terms-text {font-size:10px; color:#555;}
+
+
+/* *****HEADER***** */
+#header {margin-bottom:0px; padding-top:0px; border:none; height:125px; background:none;}
+#header-bg {width:100%; height:125px; position:absolute; top:0px; left:0px; z-index:0;}
+.header-book-img {position:absolute; left:1px; top:2px; z-index:1; height:120px; width:160px;
+  -moz-box-shadow:  0px 2px 5px 0px #000;
+  -webkit-box-shadow: 0px 2px 5px 0px #000;
+  box-shadow:     0px 2px 5px 0px #000;}
+#website-title {position:relative; float:left; margin-left:170px; margin-top:15px;}
+#tag-line {position:absolute; left:275px; top:60px;}
+#tag-line img {width:300px; height:54px;}
+#nav {position:relative; float:right; margin-top:13px;}
+#header-logo-cont {position:relative; float:left;}
+#header-logo {position:relative; float:left; margin-top:0px;}
+#header-search-cont {position:absolute; right: 140px; text-align:right; top:45px;}
+#search-form {position:absolute; top:20px; z-index:10;}
+#header-search-cont #searchform #searchsubmit {height:20px; padding-top:1px;}
+.logo-url {width:400px; height:124px;}
+.slogan {position:absolute; left: 300px; top:30px; color:#fff; font-size:18px;}
+#header-login-register {position:absolute; top:10px; right:140px; width:100px; text-align:right;}
+#header-login-register a {color:#000; position:relative; float:left;}
+#header-login-register a#ffl-logout-link {color:#fff;}
+#nav .menu-item {position:relative; float:left;}
+.search-text {position:relative; float:right; top:-2px; color:#fff; font-size:14px; text-transform: uppercase;}
+
+.flexible-frontend-login {margin-left:20px; position:relative; float:right;}
+#ffl-logged-in-user {position:relative; float:left;}
+#login-popup {position:relative; float:left; margin-top:10px;}
+#login-popup label {width:100%; color:#666;}
+#login-popup input {width: 150px; height:20px;}
+.ffl-close-popup-link {cursor:pointer;}
+#header-login-register a.ffl-popup-link {color:#fff;}
+#ffl-submit {margin-top:10px;}
+#header-login-register a.ffl-close-popup-link:hover, #ffl-lostpassword:hover {color:#800;}
+#nav {display:none;}
+
+/* *****HOMEPAGE***** */
+.homepage-info {position:relative; float:left; padding:20px; font-size:15px; text-align: center; margin-bottom:25px; width:550px;}
+.homepage-info span {font-size:18px; font-weight: bold;}
+.testimonial {position:relative; float:left; width:300px; height:135px; font-size:12px; padding:10px; margin-left:20px; margin-top:10px; text-align:center;
+  -moz-box-shadow:  0px 2px 5px 0px #555;
+  -webkit-box-shadow: 0px 2px 5px 0px #555;
+  box-shadow:     0px 2px 5px 0px #555;}
+#hp-vid {position:relative; float:left; width:350px; margin-bottom:20px; margin-top:20px;}
+.body-text {position:relative; float:left; width:365px;}
+#bookcover {position:absolute;}
+
+
+/* *****FOOTER***** */
+#footer {width:100%; margin-bottom:20px; background:#efefef; border:1px solid #666; position:relative; float:left;
+  -moz-box-shadow:  0px 2px 5px 0px #555;
+    -webkit-box-shadow: 0px 2px 5px 0px #555;
+    box-shadow:     0px 2px 5px 0px #555;}
+#footer-link-cont {position:relative; margin:auto; width:100%;}
+.footer-links {width:150px; height:25px; text-align:center; font-size: 13px; color:#888; position:relative; float:left; margin-top:5px; cursor:pointer;}
+.footer-links.copy {width:300px; font-size:11px;}
+.footer-links:hover {color:#800000;}
+.twitter-link {width:200px;}
+
+
+/* *****OVERLAYS***** */
+.overlay {display:none; position:fixed; width:800px; height:400px; background:#fff; border:#efefef; z-index:5000; border:3px solid #999;
+  -moz-box-shadow:  0px 2px 5px 0px #555;
+    -webkit-box-shadow: 0px 2px 5px 0px #555;
+    box-shadow:     0px 2px 5px 0px #555;}
+#page-fade {position:fixed; top:0px; left:0px; background:#000; opacity:0.7; z-index:4999; display:none; width:100%; height:100%;}
+.x-close {position:absolute; top:0px; right:0px; width:35px; height:35px; cursor:pointer;}
+.inner-container {position:absolute; top:35px; left:35px; width: 710px; height: 310px; border:1px solid #efefef; padding:10px; font-size:11px;
+  overflow-y:auto;}
+.overlay-titles {font-size:15px; font-weight:bold;}
+.overlay-subtitles {font-size:12px; font-weight:bold;}
+.bullet-points {list-style: disc inside none;}
+#policy-overlay ul, #policy-overlay li {list-style: disc inside none;}
+
+
+/* *****MEMBER OPTIONS***** */
+.member-opts-info {position:relative; float:left; padding:50px; font-size:15px; text-align: center;}
+.member-opts-info span {font-size:18px; font-weight: bold;}
+.payment-options {width:100%; margin-bottom:25px; text-align: center; position:relative; float:left;}
+.payment-options span {font-size:14px; font-weight:bold; text-transform: uppercase;}
+.member-options-register {color:#888; font-size:16px; text-decoration:none;}
+.member-options-register:hover {color:#000;}
+
+#member-optns-info {position:relative; margin:auto; padding:10px; text-align:center; width:690px; height:570px; padding-bottom:50px;}
+#member-optns-title {position:relative; float:left; width:100%; text-align:center; font-size:35px; 
+  font-family:'Bookman Old Style'; color:#fff; margin-top:50px; margin-bottom:50px;}
+.optn-container {position:relative; float:left; width:218px; height:365px; margin-right:10px;
+  background:url('/wp-content/images/memberoptions/optns-bg.png');}
+.optn-header {background:url('/wp-content/images/memberoptions/optns-header-bg.png'); position:relative; float:left; 
+  width:215px; height:56px;}
+.optn-title {position:relative; float:left; width:100%; text-align:center; font-size:29px; 
+  font-family:'Bookman Old Style'; color:#fff; margin-top:8px;}
+.optn-subtitle {position:relative; float:left; width:100%; text-align:center; font-size:16px; 
+  font-family:'Bookman Old Style'; color:#fff; margin-top:3px;}
+.optn-details {position:relative; float:left; width:200px; margin-left:10px; color:#800; font-family:Andalus; font-size:13px;}
+.optn-details ul, .optn-details li {list-style:disc inside;}
+.optn-details li {margin-top:5px;}
+.click-text {position:relative; float:left; margin-top:-17px; width:100%; text-align:center; font-size:13px; 
+  font-family:'Bookman Old Style'; font-style:italic; color:#800;}
+.optn-price {background:url('/wp-content/images/memberoptions/optn-price-bg.png'); position:absolute; bottom:7px; left:4px;
+  width:206px; height:60px; color:#000;}
+/*.optn-price:hover {background:url('/wp-content/images/memberoptions/optn-price-red-bg.png'); color:#fff;}*/
+.optn-price-text {position:relative; float:left; width:100%; text-align:center; font-size:18px;
+  font-family:'Bookman Old Style'; margin-top:-2px;}
+#optn-free {position:relative; float:left; margin-top:10px; width:672px; height:95px; background:#fafad2;
+  -moz-box-shadow:  0px 2px 5px 0px #000;
+  -webkit-box-shadow: 0px 2px 5px 0px #000;
+  box-shadow:     0px 2px 5px 0px #000;}
+.optn-free-button {position:relative; float:left; margin-top:14px; margin-left:10px; width:150px; height:68px;
+  background:url('/wp-content/images/memberoptions/optns-free-bg.png'); cursor:pointer;}
+.optn-free-button-text {font-size:16px; font-family:'Bookman Old Style'; color:#fff; position:relative; float:left; text-align:center;
+  margin-top:10px; width:100%;}
+.optn-free-text {font-size:29px; font-family:'Bookman Old Style'; color:#fff; position:relative; float:left; text-align:center;
+  margin-top:3px; width:100%;}
+.optn-free-detail {position:relative; float:left; width:410px; margin-left:30px; margin-top:18px; color:#000; font-size:13px;
+  font-family:'Bookman Old Style';}
+.starburst {height: 90px; left: -27px; position: absolute; top: -45px; width: 90px; z-index: 50;}
+
+
+/* *****SIDEBAR***** */
+#sidebar .padder {padding:0px;}
+#sidebar .padder div#sidebar-me, #sidebar .padder div.widget {padding:10px; padding-bottom:20px;}
+div#sidebar div#sidebar-me img.avatar {
+  -moz-box-shadow:  0px 2px 5px 0px #000;
+  -webkit-box-shadow: 0px 2px 5px 0px #000;
+  box-shadow:     0px 2px 5px 0px #000;} 
+}
+#header #searchform {width:250px; position:relative; float:right; z-index:10px;}
+#searchform #s {margin-bottom:5px; width:170px;}
+#menu-family-trees {margin-bottom:10px; font-size:12px; width:180px;}
+#cat {font-size:12px; width:180px;}
+p#login-text {margin-top:20px;}
+.sidebar-login-title {font-size:18px; font-weight:bold; color:#fff;}
+#sidebar-login-form {padding:10px; padding-bottom:20px; position:relative;}
+#sidebar-login-form.standard-form label {color:#fff; font-weight: normal}
+#recent-posts-2 li {margin-bottom:5px;}
+div#sidebar table {margin-left:-18px; width:100%;}
+div#sidebar {background:none; margin-left:0px; width:200px; border:none; position:relative; float:left;}
+
+#sidebar .padder div {position:relative; float:left;}
+div#sidebar h3.widgettitle {background:none; margin:0px; color:#fff; font-size:14px; font-family:'Caslon';}
+#right-nav-border {position:absolute; left:-5px; top:0px; height:100%; width:5px;}
+
+
+/* *****ADD HISTORY FORM***** */
+.form-descr {position:relative; float:left; font-size:16px; text-align:center; font-weight:bold; padding-left:50px; padding-right:50px;}
+
+.add-your-chapter {position:absolute; width:760px; padding:15px; text-align:center; top:0px; left:0px;}
+.add-form-descr {position:relative; width:300px; padding-left:40px; padding-right:40px; text-align:center; font-size:18px; font-weight:bold; color:#800;}
+.add-form-content {position:relative; width:755px; padding-right:20px; height:490px;}
+
+#qt_new-post-desc_toolbar input {width:45px;}
+
+
+
+ /* ADD POST FROM FRONTEND FORM */
+.wpuf-post-form {position:relative; float:left; padding-bottom:20px; width:360px; margin-left:20px;}
+.wpuf-post-form.right {margin-top:-30px; height:250px;}
+.wpuf-post-form.right p.description {padding:0px;}
+.wpuf-post-form.left {margin-left:15px;}
+/*.wpuf_submit {position:absolute; right:200px; bottom:20px;}*/
+#wpuf-attachment-upload-pickfiles {float:left; height:14px; margin-top:15px;}
+#new-post-desc_ifr {background:#fff;}
+#new-post-desc {width:355px; height:225px; color:#000;}
+#wpuf-ft-upload-filelist {float:left;}
+#wpuf-ft-upload-filelist img {height:20px; width:255px; font-size:11px; padding:0px;}
+
+ /* SUBMIT FORM TO HAVE POST CREATED */
+#content div.wpcf7 {position:relative; margin:auto; width:320px;}
+.add-left {position:relative; float:left; width: 450px; margin-left:100px; padding-left:50px;}
+.add-right {position:relative; float:left; width: 500px; }
+.add-custom-form {position:relative; float:left; width:320px;}
+.wpuf-post-form, #add-post-form {position:relative; float:left;}
+.add-fields, .wpuf-post-form li, .wpuf-post-form li label {max-width: 400px; position:relative; float:left; margin-bottom:5px; font-size:14px; font-weight:normal;}
+.add-fields input, .wpuf-post-form input[type="text"] {max-width:400px; width:100%;}
+.wpuf-post-form .attachment-title input[type="text"] {width:225px; height:9px; font-size:10px;}
+#wpuf-attachment-upload-filelist .wpuf-attachment .attachment-name {display:none;}
+#wpuf-post-area {width:775px; position:relative; float:left; padding-top:20px; height:470px;}
+.add-area-fields {max-width: 400px; position:relative; float:left; margin-bottom:10px; font-size:14px;}
+#send-add-form {position:relative; float:left; max-width:400px; width:100%; text-align:left; margin-top:20px; margin-bottom:50px;}
+div.wpcf7-validation-errors {position:absolute; width:100%; top:-5px; color:#800000; border:1px solid #800000; left:125px;}
+span.wpcf7-not-valid-tip {top:-23px; right:0px; text-align:right; background:none !important; color:#800000; border:none;}
+button, a.button, input[type="submit"], input[type="button"], input[type="reset"], ul.button-nav li a, div.generic-button a, .comment-reply-link {width:120px; height:28px;}
+#usp_success_message {color:#800;}
+.dash-post-mssg {position:relative; float:left; width:100%; margin-top:50px; font-size:18px; text-align:center; line-height: 25px;}
+#wpuf-ft-upload-container {float:left; max-height:60px;}
+#wpuf_edit_post_form #wpuf-ft-upload-container #wpuf-ft-upload-pickfiles {top:-20px; left:25px;}
+#wpuf_edit_post_form #wp-new-post-desc-wrap #new-post-desc {height:180px;}
+.wpuf-post-form label {min-width:0px; font-weight:bold;}
+#wpuf-attachment-upload-filelist .wpuf-attachment {height:20px; margin-bottom:0px;}
+#wpuf-ft-upload-filelist .wpuf-del-ft-image.button {position:relative; float:left; height:14px;}
+#new-post-desc-add_media {display: none;}
+#wpuf-attachment-upload-container {width:370px; max-height:300px;}
+#wpuf-attachment-upload-container #wpuf-attachment-upload-filelist {max-height:300px;}
+#wpuf-attachment-upload-container #wpuf-attachment-upload-filelist .wpuf-attachment-list {max-height:300px; overflow-y:auto;}
+#wpuf-post-area li {width:345px;}
+.wpuf-post-form input.wpuf_submit[type="submit"] {position:relative; float:right;}
+
+
+/* *****POSTS***** */
+.post .postmetadata {display:none;}
+.post .author-box, .post .post-content .date, .post .post-content .entry {position:relative; float:left; margin-top:5px;}
+.author-box p a {color:#000;}
+.post .post-content {margin-left:0px; background: url("/wp-content/images/content/paper-bg.jpg") repeat scroll 0 0 transparent; padding:20px;}
+.post .post-content .post-title {margin-left:125px;}
+.post-content .fb_edge_widget_with_comment {position:absolute; right:0px; top:80px;}
+.entry {width:100%;}
+.post p.date, p.postmetadata {border-bottom:1px solid #a14621; border-top:1px solid #a14621;}
+.post p.date a, p.postmetadata a {color:#a14621;}
+.post p.date a:hover, p.postmetadata a:hover {color:#000;}
+div.author-box img {
+  -moz-box-shadow:  0px 2px 5px 0px #000;
+  -webkit-box-shadow: 0px 2px 5px 0px #000;
+  box-shadow:     0px 2px 5px 0px #000;
+}
+
+
+/* *****USER SUBMITTED POSTS FORM***** */
+#content div#user-submitted-posts  {position:relative; margin:auto; width:320px;}
+#user-submitted-posts form {position:relative; float:left; width:100%;}
+#usp #usp_list {position:relative; margin:auto; width:100%;}
+div#user-submitted-posts fieldset {width:100%;}
+div#user-submitted-posts fieldset div {position:relative; max-width:300px;}
+div#user-submitted-posts fieldset label {width:100%; font-size:14px;}
+div#user-submitted-posts fieldset input, div#user-submitted-posts fieldset textarea {max-width:400px; width:100%;}
+div#user-submitted-posts fieldset select {max-width:200px;}
+.post-form-divider {width:1px; position:relative; float:left; height:600px; border-left:1px solid #333; border-right:1px solid #999; margin-top:50px;}
+div#user-submitted-posts fieldset input#user-submitted-post {width:120px;}
+
+
+.form-descr-container {position:relative; float:left; width:48%; min-width:310px;}
+
+
+/* *****POST DASHBOARD***** */
+#wpuf-dashboard-container {position:relative; margin-left:20px; margin-top:20px; margin-right:20px; padding:20px; background:url("/wp-content/images/content/paper-bg.jpg");
+  -moz-box-shadow:  0px 2px 5px 0px #000;
+  -webkit-box-shadow: 0px 2px 5px 0px #000;
+  box-shadow:     0px 2px 5px 0px #000;}
+.page-template-groupsdashboard-php .wpuf-author {display:none;}
+.wpuf-table a {color:#A14621;}
+table.wpuf-table thead th, table.wpuf-table th {background:#FAFAD2; color:#000;}
+
+/* *****EDIT USER ADDED POST***** */
+#new-post-desc_toolbargroup {width:360px;}
+.wp_themeSkin *, .wp_themeSkin a:hover, .wp_themeSkin a:link, .wp_themeSkin a:visited, .wp_themeSkin a:active {width:19px; margin-left:0px; padding:0px;}
+.wp_themeSkin span.mceIcon, .wp_themeSkin img.mceIcon {}
+
+
+/* *****BOOKS FOR SALE***** */
+#blog-page .pagetitle {color:#fff;}
+#book-sales-container {float:left; font-size:15px; margin-bottom:25px; padding:50px; position:relative; margin-right:225px;}
+.book-container {position:relative; float:left; padding-top:10px; padding-bottom:20px; border-bottom:1px solid #333; width:100%;}
+.book-img {position:relative; float:left; width:75px; height:100px;}
+.book-title {position:relative; float:left; font-size:16px; font-weight:bold; width:50%;}
+.book-price {position:relative; float:right; font-size:16px; font-weight:bold; width:30%; text-align:center;}
+.book-descr {position:relative; float:left; font-size:12px; width:50%;}
+.buy-book {position:relative; float:right; width:30%; text-align:center;}
+.mp_product_name a {color:#666;}
+.mp_product_price {font-weight:bold;}
+#blog-search .product, #blog-search .page {border-top:none; border-bottom:3px ridge #999999;}
+#blog-search .page {margin-bottom:20px; padding-bottom:20px;}
+#blog-search .product {margin-bottom:20px; padding-bottom:20px;}
+#blog-search .product .postmetadata, #blog-search .page .postmetadata {display:none;}
+#blog-search .product .wpuf-attachments {display:block;}
+#mp_product_list .product {border:none; background:url('/wp-content/images/content/paper-bg.jpg'); padding:20px;
+  -moz-box-shadow:  0px 2px 5px 0px #000;
+  -webkit-box-shadow: 0px 2px 5px 0px #000;
+  box-shadow:     0px 2px 5px 0px #000;}
+#mp_product_list {padding-bottom:25px; padding-right:5px; padding-left:5px;}
+
+#blog-page .product img.alignleft {position:relative; top:0;}
+.mp_cart_widget_content .mp_cart_col_thumb img.alignleft, .mp_cart_contents img.alignleft {position:relative; top:0;}
+.mp_cart_contents_widget th {background:#800;}
+.mp_cart_col_thumb a .alignleft {margin-right:2px;}
+.mp_cart_contents_widget .mp_cart_col_thumb, .mp_cart_col_quant {padding:2px;}
+div#sidebar table.mp_cart_contents_widget {margin-left:-11px; color:#fff;}
+div#sidebar table.mp_cart_contents_widget a:hover {color:#000;}
+.mp_product_content a {color:#000;}
+.mp_product_content a:hover {color:#800;}
+
+div.post table, div.page table, div.post table td, div.page table td, div.post table th, div.page table th {border:1px solid #999;}
+.mp_button_addcart, .mp_button_buynow, .mp_cart_col_updatecart input[type="submit"], #mp_shipping_submit, #mp_payment_confirm, #mp_payment_submit,
+    .mp_cart_direct_checkout a.mp_cart_direct_checkout_link {width:150px; height:30px;}
+#payment-message {font-size:16px;}
+
+.mp_cart_contents {background:url('/wp-content/images/content/paper-bg.jpg');}
+p.mp_cart_direct_checkout {margin-bottom:5px;}
+.mp_cart_contents .mp_cart_col_product_table a {color:#000;}
+
+
+/* Coming Soon */
+.coming-soon {display:none;}
+
+.mp_cart_actions_widget a {font-size:12px;}
+
+
+
+/* *****WIKI AS FAMILY TREE***** */
+#incsub_wiki-2 ol, #incsub_wiki-2 ul {list-style-image: inherit; list-style-position: inherit; list-style-type: inherit; padding-left:10px;}
+
+.incsub_wiki_tabs li.incsub_wiki_link_history, .incsub_wiki_tabs li.incsub_wiki_link_history a {display:none;}
+.incsub_wiki_bottom {margin-top:30px;}
+.incsub_wiki_bottom h3 {font-size:16px;}
+/*.incsub_wiki_tabs li.incsub_wiki_link_advanced_edit a, .incsub_wiki_tabs .right li.incsub_wiki_link_advanced_edit {display:none;}*/
+#incsub_wiki-2 {margin-left: -19px; max-height: 350px; overflow-y: auto; padding-left: 10px; width: 215px;}
+
+
+/* *****rootsPersona***** */
+.rp_banner {background:#800000; color:#fff; border:1px solid #000;
+  -moz-box-shadow:  0px 2px 5px 0px #555;
+  -webkit-box-shadow: 0px 2px 5px 0px #555;
+  box-shadow:     0px 2px 5px 0px #555;}
+div.rp_ancestors table.ancestors td.rp_nameBox, div.rp_family table.familygroup, .rp_truncate div.rp_header img.rp_headerbox {
+  -moz-box-shadow:  0px 2px 5px 0px #555;
+  -webkit-box-shadow: 0px 2px 5px 0px #555;
+  box-shadow:     0px 2px 5px 0px #555;}
+
+
+/* *****ACTIVITY***** */
+#activity-filter-select {display:none;}
+#members-list span.activity {display:none;}
+.user-sidebar-level {margin-top:10px; font-weight:bold; position:relative; float:left;}
+.user-sidebar-mssgs {text-align:center; position:relative; float:left; margin-bottom:10px; margin-top:5px; color:#efefef;}
+.activity-header p img {width:30px; height:30px; margin-right:5px;}
+#members-dir-list div.pagination {margin:0px;}
+#activity-stream .activity-header {color:#000;}
+#activity-stream a {color:#800;}
+#activity-stream a:hover {color:#555;}
+
+
+/* *****PROFILE***** */
+div#item-header h2 a, span.user-nicename, form#whats-new-form h5 {color:#fff;}
+
+/* *****REPORT ABUSE***** */
+.report-abuse {position:absolute; bottom:1px; right:0px; width:90px; height:16px; background:#888; color:#fff; cursor:pointer; 
+    padding-bottom:2px; padding-left:18px; font-size:11px; border:1px solid #000;}
+.report-abuse:hover {background:#800; color:#fff;}
+#report-abuse-left, #report-abuse-right {width:330px; height:290px; padding:10px; position:relative; float:left;}
+.report-fields {width:90%; position:relative; float:left; margin-bottom:10px; font-size: 13px;}
+.report-area-fields {width:90%; position:relative; float:left; margin-bottom:25px; font-size: 13px;}
+.report-area-fields input {height:22px;}
+.report-abuse-title {position:relative; float:left; width:500px; font-size:15px; font-weight:bold; margin-left:35px; margin-top:10px;}
+
+
+/* *****MESSAGES***** */
+li span.unread-count, tr.unread span.unread-count {background:#800;}
+table#message-threads tr.unread td {background:#fff;}
+a {color:#fff;}
+a:hover {color:#000;}
+.activity-content a {color:#fff;}
+.activity-content a:hover {color:#000; text-decoration:underline;}
+div#item-header div#item-meta {color:#000;}
+div.item-list-tabs ul li a span, div.item-list-tabs ul li.selected a span, div.item-list-tabs ul li.current a span {background:#800;}
+#object-nav li:hover, .item-list-tabs ul li:hover {background:#efefef; color:#000;}
+div.item-list-tabs ul li.selected a, div.item-list-tabs ul li.current a {color:#000;}
+#members-order-select:hover {background:none; color:#fff;}
+
+
+
+/* *****E-BOOKS***** */
+.ebook-container {position:relative; float:left; background:url('/wp-content/images/content/paper-bg.jpg'); margin-bottom:10px;
+  width:100%;
+  -moz-box-shadow:  0px 2px 5px 0px #555;
+  -webkit-box-shadow: 0px 2px 5px 0px #555;
+  box-shadow:     0px 2px 5px 0px #555;}
+#ebook-list {position:relative; float:left; width:100%;}
+.ebook-page-title {float: left; font-size: 28px; height: 40px; position:relative; float:left; width: 100%; color:#fff; margin-left:20px; margin-top:30px; 
+  margin-bottom:25px;}
+/*.ebook-container {width:100%; min-width:400px; padding-left:10%; padding-right:10%; height:100px; border:1px solid #888; position:relative; float:left; margin-right:250px;}*/
+.ebook-title {width:100%; position:relative; float:left; height:40px; font-size:22px; margin-left:20px; margin-top:20px;}
+.ebook-title a {color:#000;}
+.ebook-title a:hover {color:#800;}
+.ebook-img {width:60px; position:relative; float:left; height:80px; margin-left:20px; margin-bottom:20px;}
+.ebook-img img {height:70px; width:60px;}
+.ebook-description {margin-left:20px; position:relative; float:left; height:80px; width:65%; margin-bottom:20px; margin-left:10px;}
+.ebook-link {position:absolute; bottom:20px; right:50px; width:125px; height:40px; color:#fff;
+  background:url('/wp-content/images/ebooks/buy-ebook-button.png') no-repeat; cursor:pointer;}
+
+
+
+
+
+
+
